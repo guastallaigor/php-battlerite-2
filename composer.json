@@ -1,0 +1,42 @@
+{
+    "name": "guastallaigor/php-battlerite-2",
+    "description": "",
+    "keywords": [
+        "guastallaigor",
+        "php-battlerite-2"
+    ],
+    "homepage": "https://github.com/guastallaigor/php-battlerite-2",
+    "license": "MIT License (MIT)",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Igor Guastalla",
+            "email": "limaguastallaigor@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.1"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Guastallaigor\\PhpBattlerite2\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Guastallaigor\\PhpBattlerite2\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    }
+}
